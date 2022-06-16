@@ -7,7 +7,7 @@
 
 	$  npm install
 	
-	$  npm start  ( npm run start )
+	$  npm start  ( npm run dev )
 
 	
   Resources

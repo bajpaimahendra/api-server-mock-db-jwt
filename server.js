@@ -9,17 +9,19 @@ const {
   uploadImageHandler,
   registerHandler,
 } = require("./additional_routes");
-const { defaultPort, databaseFile, jwtSecret } = require("./config.json");
+const { hostname, defaultPort, databaseFile, jwtSecret } = require("./config.json");
 
 const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync(databaseFile);
 const db = low(adapter);
 
+
 const server = jsonServer.create();
 const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || defaultPort;
+//const hostname = process.env.hostname || hostname;
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
@@ -87,5 +89,6 @@ server.use(router);
 
 // Start server
 server.listen(port, () => {
-  console.log("Server is running on port " + port);
+  //console.log("Server is running on port " + port);
+  console.log(`Server running at    http://${hostname}:${port}/`);
 });

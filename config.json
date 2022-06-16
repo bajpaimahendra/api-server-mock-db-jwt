@@ -1,4 +1,5 @@
 {
+  "hostname" : "localhost",
   "defaultPort": 3000,
   "databaseFile": "data/DB.json",
   "jwtSecret": "mahendra_bajpai",
