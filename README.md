@@ -11,12 +11,50 @@
 
 	
   Resources
+
+  	  http://localhost:3000/register
+
+	  http://localhost:3000/login
   
 	  http://localhost:3000/products
 
 	  http://localhost:3000/comments
 
 	  http://localhost:3000/users
+
+### Open Endpoints ( Authentication not required )
+
+##### User Register
+
+	POST 	http://localhost:3000/register
+
+		{
+		  "username": "admin",
+		  "password": "admin"
+		}
+
+	or
+
+		{
+		  "email": "admin@gmail.com",
+		  "password": "admin"
+		}
+
+#### User Login
+
+	POST 	http://localhost:3000/login
+
+		{
+		  "username": "admin",
+		  "password": "admin"
+		}
+
+	or
+
+		{
+		  "email": "admin@gmail.com",
+		  "password": "admin"
+		}
 
 ##### Get products
   	GET 	http://localhost:3000/products
@@ -34,20 +72,22 @@
 ##### product ID != 2	
   	GET 	http://localhost:3000/products?id_ne=2
 
-##### products with rating >= 100 				
+##### products with rating >= 4 				
   	GET 	http://localhost:3000/products?rating_gte=4
 
 ##### Get products including it's comments
   	GET 	http://localhost:3000/products?_embed=comments
 
 ##### Get product by ID including it's comments
-  	GET 	http://localhost:3000/products/3?_embed=comments 
+  	GET 	http://localhost:3000/products/3?_embed=comments
+
+
+### Private Endpoints ( Authentication required )
 
 ##### Add Product
 	POST 	http://localhost:3000/products
  
 	{
-	"id": 7,
 	"name": "Dell Pro",
 	"cost": 200,
 	"quantity": 1000,
