@@ -1,19 +1,5 @@
-	$ npm install -g json-server          		( install package globaly )
-	$ json-server -v  				( check version )
-	$ json-server -h  				( help )
-	
-	$ git clone https://github.com/bajpaimahendra/json-server-mock-api.git
-	
-	$ cd json-server-mock-api
-	
-	$ npm install					( install dependency from package.json )
-	
-	$ node concat-json.js 				( run js file , To concat multiple json file into single json file)
-	
-	$ json-server --watch data/DB.json
 
-
-##### Making GET Requests
+##### Mock API using json-server, jsonwebtoken
 
   Resources
   

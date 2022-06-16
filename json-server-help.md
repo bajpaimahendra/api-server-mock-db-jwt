@@ -2,8 +2,8 @@
 #### json-server-mock-api
 
 
-	$ mkdir json-server-mock-api
-	$ cd json-server-mock-api
+	$ mkdir api-server-mock-db
+	$ cd api-server-mock-db
 	$ npm init --yes  ( to create package.json )
 
 	$ npm install -g json-server          			 ( install package globaly )
@@ -17,26 +17,26 @@
 	var jsonConcat = require('json-concat');
 	jsonConcat({
 	    src: "data",
-	    dest: "data.json",
+	    dest: "database.json",
 	}, function(json){
 	    console.log(json);
 	});
 
-	$ node concat-json.js 							( run js file , To concat multiple json file into single json file)
+	$ node concat-json.js 						( run js file , To concat multiple json file into single json file database.json )
 
-	$ json-server --watch DB.json
-	$ json-server --watch data/DB.json --port 3004   ( Alternative port )
+	$ json-server --watch database.json.json
+	$ json-server --watch data/database.json.json --port 3004   ( Alternative path and port )
 
 
 
 
 ### finaly 
-	mock-api-server $ node concat-json.js
-	mock-api-server $ json-server --watch data/DB.json
+	api-server-mock-db $ node concat-json.js
+	api-server-mock-db $ json-server --watch data/DB.json
 	check http://localhost:3000/	
 
 
-### ##################################################################################### Get a full fake REST API with zero coding -----------
+### ######################################## Get a full fake REST API with zero coding -----------
 	JSON Server is an npm package that allows you to create an fake API
 	https://github.com/typicode/json-server 	
 
