@@ -113,7 +113,7 @@
 
 
 ##### Add Product
-	endpoint 	    http://localhost:3000/products
+	endpoint 	http://localhost:3000/products
 	method      	POST
 	request type    application/json
 	request body:
@@ -144,18 +144,18 @@
 
 #### User
 
-    Get users: 			GET    / http://localhost:3000/users
+    Get users: 		GET    / http://localhost:3000/users
 
     Get user by ID: 	GET   /  http://localhost:3000/users/2
 
-    Create user: 		POST /   http://localhost:3000/users
-    					{
-						  "username": "admin",
-						  "password": "admin"
-						}
-	Update user (entire information):  PUT    / http://localhost:3000/users/7
+    Create user: 	POST /   http://localhost:3000/users
+			{
+			   "username": "admin",
+			   "password": "admin"
+			}
+    Update user (entire information):  PUT    / http://localhost:3000/users/7
 
-	Update user (partial information)  PATCH /  http://localhost:3000/users/7
+    Update user (partial information)  PATCH /  http://localhost:3000/users/7
 
 	
 
