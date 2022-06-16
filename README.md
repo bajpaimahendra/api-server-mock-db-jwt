@@ -22,6 +22,14 @@
 
 	  http://localhost:3000/users
 
+	  Note : 
+	  		1- To protect resources, decleare resources and protected methods in data/protected_resources.json
+	  			$  node concat-json.js      ( to concat in DB.js )
+
+	  		2- Change default port, database file, jwt secret or jwt token expires in config.json
+
+
+
 ### Open Endpoints ( Authentication not required )
 
 ##### User Register
@@ -56,6 +64,24 @@
 		  "password": "admin"
 		}
 
+#####  upload single file
+
+		url : http://localhost:3000/upload-file
+
+ 		method : POST, 
+ 		request type : form-data
+ 		field : file
+ 		Uploaded file stored in /public/uploads/
+
+##### upload multiple files
+
+		url : http://localhost:3000/upload-files
+
+ 		method : POST, 
+ 		request type : form-data
+ 		field : files
+ 		Uploaded file stored in /public/uploads/		
+
 ##### Get products
   	GET 	http://localhost:3000/products
   	GET 	http://localhost:3000/products?_sort=name&_order=asc        ( Sorting )
@@ -85,7 +111,10 @@
 ### Private Endpoints ( Authentication required )
 
 ##### Add Product
-	POST 	http://localhost:3000/products
+	endpoint 	    http://localhost:3000/products
+	method      	POST
+	request type    application/json
+	request body:
  
 	{
 	"name": "Dell Pro",
@@ -95,11 +124,14 @@
 	}
 
 ##### Update Product
- 	PUT 	http://localhost:3000/products/2
+ 	endpoint 	http://localhost:3000/products/2
+ 	method      	PUT
+	request type    application/json
+	request body:
  
 	     {
 	      "name": "testing123",
-	      "cost": "testing123",
+	      "cost": 900,
 	      "quantity": "testing123",
 	      "rating": 2.3
 	    }  

@@ -23,11 +23,12 @@
       "rating": 4.2
     },
     {
-      "id": 2,
       "name": "testing123",
-      "cost": "testing123",
+      "cost": 9000,
       "quantity": "testing123",
-      "rating": 2.3
+      "rating": 2.3,
+      "modifiedAt": 1655382997368,
+      "id": 2
     },
     {
       "id": 3,
@@ -69,8 +70,8 @@
       "cost": 200,
       "quantity": 1000,
       "rating": 4.2,
-      "createdAt": 1655380745501,
-      "modifiedAt": 1655380745501,
+      "createdAt": 1655383175757,
+      "modifiedAt": 1655383175757,
       "id": 8
     }
   ],

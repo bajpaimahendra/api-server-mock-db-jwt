@@ -1,5 +1,7 @@
 # dependencies
 /node_modules
+public/uploads*
+!public/uploads/.gitkeep
 
 # IDEs and editors
 /.idea

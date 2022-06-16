@@ -79,7 +79,7 @@ server.use((req, res, next) => {
     } else {
 
     const status = 401
-    const message = 'Unauthorized, login token required as Bearer header'
+    const message = 'Unauthorized / token expired, login token required as Bearer header'
     res.status(status).json({status, message})
 
     //res.sendStatus(401);
