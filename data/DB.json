@@ -1,0 +1,114 @@
+{
+  "protected_resources": {
+    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "products": ["POST", "PUT", "PATCH", "DELETE"]
+  }
+,
+  "products": [
+    {
+      "id": 1,
+      "name": "MackBoo Pro",
+      "cost": 20,
+      "quantity": 2000,
+      "rating": 4.2
+    },
+    {
+      "id": 2,
+      "name": "testing123",
+      "cost": "testing123",
+      "quantity": "testing123",
+      "rating": 2.3
+    },
+    {
+      "id": 3,
+      "name": "test2",
+      "cost": "test2",
+      "quantity": "test2",
+      "rating": 4.1
+    },
+    {
+      "id": 4,
+      "name": "test3",
+      "cost": "test3",
+      "quantity": "test3",
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "name": "test4",
+      "cost": "test4",
+      "quantity": "test4",
+      "rating": 3.9
+    },
+    {
+      "id": 6,
+      "name": "test",
+      "cost": "erer",
+      "quantity": "erer",
+      "rating": 4.9
+    },
+    {
+      "id": 7,
+      "name": "Dell Pro",
+      "cost": 200,
+      "quantity": 1000,
+      "rating": 4.2
+    }
+  ]
+,
+
+  "comments": [
+    { "id": 1, "body": "like the added screen cover", "productId": 1 },
+    { "id": 1, "body": "the directions need to be clearer", "productId": 2 },
+    { "id": 3, "body": "I received 3 different packages without mouse", "productId": 3 }
+  ]
+ 
+,
+  "users": [
+    {
+      "id": 1,
+      "email": "bajpaimahendra@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "email": "techie@email.com",
+      "password": "techie"
+    },
+    {
+      "id": 3,
+      "email": "nilson@email.com",
+      "password": "nilson"
+    },
+    {
+      "id": 4,
+      "email": "nilson1@email.com",
+      "password": "nilson"
+    },
+    {
+      "id": 5,
+      "email": "nilson2@email.com",
+      "password": "nilson"
+    },
+    {
+      "id": 6,
+      "email": "nilson3@email.com",
+      "password": "nilson"
+    },
+    {
+      "id": 7,
+      "email": "nilson4@email.com",
+      "password": "nilson"
+    },
+    {
+      "id": 8,
+      "email": "nilson7@email.com",
+      "password": "nilson"
+    },
+    {
+      "id": 9,
+      "email": "nilson8@email.com",
+      "password": "nilson"
+    }
+  ]
+}

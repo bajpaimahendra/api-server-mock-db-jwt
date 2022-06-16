@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MackBoo Pro",
+      "cost": 20,
+      "quantity": 2000,
+      "rating": 4.2
+    },
+    {
+      "id": 2,
+      "name": "testing123",
+      "cost": "testing123",
+      "quantity": "testing123",
+      "rating": 2.3
+    },
+    {
+      "id": 3,
+      "name": "test2",
+      "cost": "test2",
+      "quantity": "test2",
+      "rating": 4.1
+    },
+    {
+      "id": 4,
+      "name": "test3",
+      "cost": "test3",
+      "quantity": "test3",
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "name": "test4",
+      "cost": "test4",
+      "quantity": "test4",
+      "rating": 3.9
+    },
+    {
+      "id": 6,
+      "name": "test",
+      "cost": "erer",
+      "quantity": "erer",
+      "rating": 4.9
+    },
+    {
+      "id": 7,
+      "name": "Dell Pro",
+      "cost": 200,
+      "quantity": 1000,
+      "rating": 4.2
+    }
+  ]
+}
