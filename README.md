@@ -1,6 +1,15 @@
 
 ##### Mock API using json-server, jsonwebtoken
+  
+  Required : Node 16 or above
 
+  	$  git clone https://github.com/bajpaimahendra/api-server-mock-db-jwt.git
+
+	$  npm install
+	
+	$  npm start  ( npm run start )
+
+	
   Resources
   
 	  http://localhost:3000/products
