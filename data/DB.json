@@ -109,6 +109,33 @@
       "id": 3,
       "email": "nilson@email.com",
       "password": "nilson"
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "createdAt": 1655385918398,
+      "modifiedAt": 1655385918398,
+      "id": 4
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "createdAt": 1655385925427,
+      "modifiedAt": 1655385925427,
+      "id": 5
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "createdAt": 1655385929007,
+      "modifiedAt": 1655385929007,
+      "id": 6
+    },
+    {
+      "username": "admin111",
+      "password": "admin777",
+      "modifiedAt": 1655386484741,
+      "id": 7
     }
   ]
 }

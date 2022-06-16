@@ -110,6 +110,8 @@
 
 ### Private Endpoints ( Authentication required )
 
+
+
 ##### Add Product
 	endpoint 	    http://localhost:3000/products
 	method      	POST
@@ -138,6 +140,24 @@
 
 #####  Delete Particular Product
 	DELETE 	 http://localhost:3000/products/8
+
+
+#### User
+
+    Get users: 			GET    / http://localhost:3000/users
+
+    Get user by ID: 	GET   /  http://localhost:3000/users/2
+
+    Create user: 		POST /   http://localhost:3000/users
+    					{
+						  "username": "admin",
+						  "password": "admin"
+						}
+	Update user (entire information):  PUT    / http://localhost:3000/users/7
+
+	Update user (partial information)  PATCH /  http://localhost:3000/users/7
+
+	
 
 ###### https://dummyjson.com/
 ##### https://github.com/robinhuy/fake-rest-api-nodejs
