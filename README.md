@@ -21,15 +21,15 @@
 ##### Get products
   	GET 	http://localhost:3000/products
   	GET 	http://localhost:3000/products?_sort=name&_order=asc        ( Sorting )
-  	GET 	http://localhost:3000/products?_sort=name&_order=desc 		( Sorting )
+  	GET 	http://localhost:3000/products?_sort=name&_order=desc 	    ( Sorting )
 
 ##### Get product by ID
   	GET 	http://localhost:3000/products/3
 
 ##### All products with pro in name field
-  	GET 	http://localhost:3000/products?name_like=pro   				( Filtering )
+  	GET 	http://localhost:3000/products?name_like=pro   			( Filtering )
   	GET 	http://localhost:3000/products?name=MackBoo Pro&cost=20
-  	GET 	http://localhost:3000/products?q=est 						( full text search )
+  	GET 	http://localhost:3000/products?q=est 				( full text search )
 
 ##### product ID != 2	
   	GET 	http://localhost:3000/products?id_ne=2
