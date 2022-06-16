@@ -173,7 +173,3 @@ https://www.techiediaries.com/fake-api-jwt-json-server/
 
 https://github.com/robinhuy/fake-rest-api-nodejs
 
-
-$ node concat-json.js
-$ npm start
-$ npm run dev
